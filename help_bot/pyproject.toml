@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "help-bot"
+version = "0.1.0"
+description = "Bot that help to manage notes and contacts."
+authors = ["team_5"]
+readme = "README.md"
+packages = [{include = "help_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+DateTime = "5.*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
