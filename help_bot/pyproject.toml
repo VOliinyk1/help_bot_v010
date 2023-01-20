@@ -1,14 +1,13 @@
 [tool.poetry]
-name = "help-bot"
+name = "help-you"
 version = "0.1.0"
-description = "Bot that help to manage notes and contacts."
+description = "Bot that help you to manage notes and contacts."
 authors = ["team_5"]
 readme = "README.md"
-packages = [{include = "help_bot"}]
+packages = [{include = "help_you"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-DateTime = "5.*"
 
 
 [build-system]
