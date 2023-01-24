@@ -1,7 +1,7 @@
-from help_bot.book import Book
+from book import Book
 from contact_classes.fields import Phone, Email, Address, Birthday
 from contact_classes.record import Record
-from help_bot.user_work_abstract import UserWork
+from user_work_abstract import UserWork
 
 class WorkContact(UserWork):
 

@@ -1,6 +1,6 @@
-from help_bot.book import Book
+from book import Book
 from note_classes.note import Note
-from help_bot.user_work_abstract import UserWork
+from user_work_abstract import UserWork
 
 
 class WorkNote(UserWork):
